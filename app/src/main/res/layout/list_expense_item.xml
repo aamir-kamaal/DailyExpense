@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/expenseSymbol"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="15px"
+        app:srcCompat="@android:color/holo_blue_dark"/>
+
+
+    <TextView
+        android:id="@+id/expenseNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15px"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/expenseAmountView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="15dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="20dp"
+        android:padding="15px"
+        android:text="TextView"/>
+
+    </LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#77B8E1</color>
+    <color name="colorPrimaryDark">#77B8E1</color>
+    <color name="colorAccent">#77B8E1</color>
+    <color name="colorBlue">#77B8E1</color>
+    <color name="colorbg">#EBF9F7</color>
+    <color name="colorButton">#77B8E1</color>
+    <color name="cardColor">#E0E6E7</color>
+    <color name="datePickerColor">#77B8E1</color>
+    <color name="toolbarColor">#C2C6C9</color>
+    <color name="colorBlack">#000000</color>
+
+</resources>
